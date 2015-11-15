@@ -21,7 +21,7 @@ Add XML-RPC (and erlsom) to your mix dependencies
 
     def deps do
       [{:erlsom, github: "willemdj/erlsom"},
-       {:xmlrpc, "~> 0.1"}]
+       {:elixir_xmlrpc, github: "knewter/elixir-xml_rpc"}]
     end
 
 Then run `mix deps.get` and `mix deps.compile`.
